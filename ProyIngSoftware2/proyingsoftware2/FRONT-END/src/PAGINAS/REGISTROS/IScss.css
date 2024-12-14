@@ -1,0 +1,55 @@
+#BodyOne {
+    background-image: url(../../imagenes/WallpaperLogin.jpg);
+    backface-visibility: hidden;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: grid;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay; /* Mezcla la imagen con el color de fondo */
+}
+
+.RectanguloBase {
+    display: flex;
+    height: 80vh;
+    width: 30%;
+    background-color: #5F9FBF;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+}
+
+.divolvide {
+    display: flex;  /* Hacer que sea un contenedor flexible */
+    justify-content:end;  /* Centrar el contenido horizontalmente */
+    margin-bottom: 35px;
+}
+
+.olvide {
+    color: aliceblue;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.RA {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.RA p {
+    color: white;
+}
+
+.RA a {
+    padding-left: 3px;
+    cursor: pointer;
+    color: aliceblue;
+}

@@ -1,0 +1,44 @@
+#Cuerpo{
+    display: flex;
+}
+
+#WallpaperIzquierda{
+    background-color:#5F9FBF;
+    width: 60%;
+    background-image: url('../../imagenes/Logo/Logo_DosisXtra.png');
+    background-position: center 30%;
+    background-size: 300px 300px; 
+    background-repeat: no-repeat;
+}
+
+#WallpaperIzquierda h2{
+    text-align: center;
+    margin-top: 63%;
+    margin-bottom: 0;
+    color: rgb(1, 33, 61);
+    font-size: 30px;
+}
+#WallpaperIzquierda p{
+    margin-top: 0;
+    text-align: center;
+    color:aliceblue;
+    font-size: 17px
+}
+
+.IS{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.IS p{
+    color: rgb(1, 33, 61);
+}
+
+.IS a{
+    padding-left: 3px;
+    cursor: pointer;
+    color: rgb(1, 33, 61);
+}
+
